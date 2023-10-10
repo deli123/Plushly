@@ -22,13 +22,128 @@
       crossorigin="anonymous"
       defer
     ></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="scripts/validation.js" defer></script>
   </head>
 
   <body>
     <header>
-      <!-- place navbar here -->
+      <nav class="navbar navbar-expand-sm navbar-light p-md-3">
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mt-2 mt-lg-0 me-auto ms-auto">
+              <li class="nav-item p-lg-1">
+                <a class="nav-link active" href="#" aria-current="page"
+                  >Home <span class="visually-hidden">(current)</span></a
+                >
+              </li>
+              <li class="nav-item p-lg-1">
+                <a class="nav-link" href="products.html">Store</a>
+              </li>
+              <li class="nav-item dropdown p-lg-1">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Dropdown</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#">Action 1</a>
+                  <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+              </li>
+            </ul>
+            <div class="col-md-2 d-flex justify-content-evenly">
+              <a href="login.html"><img src="images/icons/user.svg" /></a>
+              <img src="images/icons/search.svg" />
+              <a href="checkout.html"
+                ><img src="images/icons/shopping-cart.svg"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main></main>
+    <main>
+      <hr class="mt-2" />
+      <section class="container">
+        <div class="row d-flex flex-column">
+          <div class="col-md-4 d-flex flex-column mx-auto align-items-center">
+            <h4 class="mb-3">Login</h4>
+            <form class="needs-validation w-100" novalidate>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" required />
+                <div class="invalid-feedback">
+                  Please enter a valid email address.
+                </div>
+              </div>
+
+              <div class="mb-3">
+                <label for="password" class="form-label">Address</label>
+                <input
+                  type="password"
+                  class="form-control"
+                  id="password"
+                  required
+                />
+                <div class="invalid-feedback">Password cannot be blank.</div>
+              </div>
+
+              <div class="mb-3">
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="remember-me"
+                  />
+                  <label class="form-check-label" for="remember-me">
+                    Remember me?
+                  </label>
+                </div>
+              </div>
+              <hr class="my-4" />
+              <button
+                class="btn btn-lg rounded-pill bg-dark w-100 btn-dark fw-bold fs-6"
+                type="submit"
+              >
+                Sign In
+              </button>
+            </form>
+          </div>
+
+          <div class="col-md-4 mx-auto my-5">
+            <a href="signup.html" class="text-decoration-none text-muted"
+              >Create account</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
     <footer>
       <!-- place footer here -->
     </footer>

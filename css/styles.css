@@ -1,11 +1,8 @@
-.mw-1090 {
-  max-width: 1090px;
-}
-
-.font-ibm {
+body {
+  background-color: #e6ded2; /* mushroom cream color */
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.bg-mushroom-cream {
-  background-color: #e6ded2;
+.mw-1090 {
+  max-width: 1090px;
 }
