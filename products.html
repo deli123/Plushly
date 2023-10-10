@@ -22,13 +22,80 @@
       crossorigin="anonymous"
       defer
     ></script>
+
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
 
-  <body>
+  <body class="bg-mushroom-cream">
     <header>
-      <!-- place navbar here -->
+      <nav
+        class="navbar navbar-expand-sm navbar-light font-ibm p-md-3 bg-mushroom-cream"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <ul class="navbar-nav mt-2 mt-lg-0 me-auto ms-auto">
+              <li class="nav-item p-lg-1">
+                <a class="nav-link active" href="#" aria-current="page"
+                  >Home <span class="visually-hidden">(current)</span></a
+                >
+              </li>
+              <li class="nav-item p-lg-1">
+                <a class="nav-link" href="#">Products</a>
+              </li>
+              <li class="nav-item dropdown p-lg-1">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="dropdownId"
+                  data-bs-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  >Dropdown</a
+                >
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                  <a class="dropdown-item" href="#">Action 1</a>
+                  <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+              </li>
+            </ul>
+            <div class="col-md-2 d-flex justify-content-evenly">
+              <img src="images/icons/user.svg" />
+              <img src="images/icons/search.svg" />
+              <img src="images/icons/shopping-cart.svg" />
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
-    <main></main>
+    <main>
+      <hr class="mt-2" />
+      <section class="container">
+        <div class="d-flex flex-wrap justify-content-evenly">
+          <img src="images/products/corgi.png"/>
+          <img src="images/products/pink-bear.png" />
+          <img src="images/products/tiger.png" />
+          <img src="images/products/whale.png" />
+          <img src="images/products/teddy-bear.png" />
+          <img src="images/products/elephant.png" />
+          <img src="images/products/turtle.png" />
+          <img src="images/products/dog.png" />
+          <img src="images/products/shark.png" />
+          <img src="images/products/pusheen.png" />
+        </div>
+      </section>
+    </main>
     <footer>
       <!-- place footer here -->
     </footer>

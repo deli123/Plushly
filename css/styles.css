@@ -3,5 +3,9 @@
 }
 
 .font-ibm {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.bg-mushroom-cream {
+  background-color: #e6ded2;
 }
