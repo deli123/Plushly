@@ -31,9 +31,10 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/home.css" />
   </head>
 
-  <body>
+  <body class="bg-image">
     <header>
       <nav class="navbar navbar-expand-sm navbar-light p-md-3">
         <div class="container">
@@ -77,9 +78,9 @@
               </li>
               <hr class="mt-1" />
             </ul>
-            <div class="col-md-2 col-sm-3 d-flex justify-content-evenly">
+            <div class="col-md-2 col-sm-3 d-flex justify-content-evenly user-links">
               <a href="login.html"><img src="images/icons/user.svg" /></a>
-              <img src="images/icons/search.svg" />
+              <a href="#"><img src="images/icons/search.svg" /></a>
               <a href="checkout.html"
                 ><img src="images/icons/shopping-cart.svg"
               /></a>
@@ -88,9 +89,15 @@
         </div>
       </nav>
     </header>
-    <main></main>
-    <footer>
-      <!-- place footer here -->
+    <main>
+      <section class="about">
+        <h1>Lorem ipsum <br>dolor <br>sit amet.</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <a href="#" class="about-btn">buy now</a>
+      </section>
+    </main>
+    <footer class="my-5 text-muted text-center text-small">
+      <p>&copy; Plushly</p>
     </footer>
   </body>
 </html>

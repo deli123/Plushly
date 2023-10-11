@@ -1,0 +1,42 @@
+.about {
+  width: 100%;
+  /* height: 100vh; */
+  padding-top: 180px;
+}
+
+.about h1 {
+  font-size: 50px;
+  position: absolute;
+  left: 10%;
+  color: white;
+  text-transform: uppercase;
+}
+
+.about p {
+  color: white;
+  position: absolute;
+  top: 65%;
+  left: 10%;
+  font-size: 18px;
+  font-style: oblique;
+}
+
+.about .about-btn {
+  color: white;
+  background: none;
+  position: relative;
+  top: 40%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  padding: 10px 25px;
+  border: 2px solid #c72092;
+  text-decoration: none;
+  box-shadow: 0 0 8px #c72092;
+  transition: .5s;
+}
+
+.about .about-btn:hover {
+  border: 2px solid transparent;
+  background: #c72092;
+  color: white;
+}
