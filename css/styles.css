@@ -15,42 +15,43 @@ body {
   color: #111111;
 }
 
+.darker-cream {
+  background-color: #e9e0d2; /* darker mushroom cream color */
+}
+
+.even-darker-cream {
+  background-color: #dad0c3; /* even darker mushroom cream color */
+}
+
 .nav-link:hover {
   font-weight: bold;
   transition: all 0.3s;
 }
 
 .nav-logo-width {
-  width: 25%;
+  width: 50%;
+  min-width: 50%;
 }
 
 /* adjust the size of the logo at sm, md, lg breakpoints on the checkout page */
 @media (max-width: 576px) {
   .logo-width {
-    width: 70%;
-  }
-
-  .nav-logo-width {
-    width: 75%;
+    width: 50%;
   }
 }
 
 @media (min-width: 577px) and (max-width: 768px) {
   .logo-width {
-    width: 75%;
-  }
-
-  .nav-logo-width {
-    width: 50%;
+    width: 40%;
   }
 }
 
 @media (min-width: 769px) and (max-width: 992px) {
   .logo-width {
-    width: 50%;
+    width: 100%;
   }
 
   .nav-logo-width {
-    width: 75%;
+    width: 70%;
   }
 }
