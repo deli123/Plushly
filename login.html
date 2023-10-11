@@ -99,7 +99,12 @@
             <form class="needs-validation w-100" novalidate>
               <div class="mb-3">
                 <label for="email" class="form-label fw-bold">EMAIL</label>
-                <input type="email" class="form-control" id="email" required />
+                <input
+                  type="email"
+                  class="form-control bg-transparent border-black rounded-pill"
+                  id="email"
+                  required
+                />
                 <div class="invalid-feedback">
                   Please enter a valid email address.
                 </div>
@@ -111,25 +116,25 @@
                 >
                 <input
                   type="password"
-                  class="form-control"
+                  class="form-control bg-transparent border-black rounded-pill"
                   id="password"
                   required
                   minlength="8"
                   maxlength="20"
                 />
-                <div class="invalid-feedback">Password cannot be blank.</div>
+                <div class="invalid-feedback">Invalid password.</div>
               </div>
 
               <div class="mb-3">
                 <div class="form-check">
                   <input
-                    class="form-check-input"
+                    class="form-check-input border-black rounded-pill"
                     type="checkbox"
                     value=""
                     id="remember-me"
                   />
                   <label class="form-check-label" for="remember-me">
-                    Remember me?
+                    Remember me
                   </label>
                 </div>
               </div>
