@@ -23,6 +23,7 @@
       defer
     ></script>
 
+    <!-- IBM Plex Sans Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -113,6 +114,8 @@
                   class="form-control"
                   id="password"
                   required
+                  minlength="8"
+                  maxlength="20"
                 />
                 <div class="invalid-feedback">Password cannot be blank.</div>
               </div>
@@ -139,7 +142,7 @@
             </form>
           </div>
 
-          <div class="col-md-4 mx-auto my-5">
+          <div class="col-md-4 mx-auto my-4">
             <a href="signup.html" class="text-decoration-none text-muted"
               >Create account</a
             >
