@@ -6,3 +6,7 @@ body {
 .mw-1090 {
   max-width: 1090px;
 }
+
+.custom-black {
+  color: #111111;
+}

@@ -26,7 +26,58 @@
 
   <body>
     <header>
-      <!-- place navbar here -->
+      <nav class="navbar navbar-expand-sm navbar-light p-md-3">
+        <div class="container">
+          <!-- visible only on small; needed to prevent duplicate logos -->
+          <a class="navbar-brand d-sm-none w-50" href="index.html"
+            ><img src="images/icons/logo.png" class="w-100"
+          /></a>
+          <button
+            class="navbar-toggler d-lg-none"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavId"
+            aria-controls="collapsibleNavId"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <!-- div for logo in order to fix center positioning on nav links -->
+            <div class="col-md-2 col-sm-3">
+              <!-- hidden only on small; needed to prevent duplicate logos -->
+              <a class="navbar-brand d-none d-sm-block" href="index.html">
+                <img src="images/icons/logo.png" class="w-100"
+              /></a>
+            </div>
+            <ul class="navbar-nav mt-2 mt-lg-0 mx-auto">
+              <li class="nav-item p-lg-1">
+                <a
+                  class="nav-link fs-5 custom-black"
+                  href="index.html"
+                  aria-current="page"
+                  >Home</a
+                >
+              </li>
+              <hr class="mt-1" />
+              <li class="nav-item p-lg-1">
+                <a class="nav-link fs-5 custom-black" href="products.html"
+                  >Store</a
+                >
+              </li>
+              <hr class="mt-1" />
+            </ul>
+            <div class="col-md-2 col-sm-3 d-flex justify-content-evenly">
+              <a href="login.html"><img src="images/icons/user.svg" /></a>
+              <img src="images/icons/search.svg" />
+              <a href="checkout.html"
+                ><img src="images/icons/shopping-cart.svg"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </nav>
     </header>
     <main></main>
     <footer>

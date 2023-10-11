@@ -39,7 +39,9 @@
       <nav class="navbar navbar-expand-sm navbar-light p-md-3">
         <div class="container">
           <!-- visible only on small; needed to prevent duplicate logos -->
-          <a class="navbar-brand d-sm-none" href="#">Navbar</a>
+          <a class="navbar-brand d-sm-none w-50" href="index.html"
+            ><img src="images/icons/logo.png" class="w-100"
+          /></a>
           <button
             class="navbar-toggler d-lg-none"
             type="button"
@@ -53,21 +55,30 @@
           </button>
           <div class="collapse navbar-collapse" id="collapsibleNavId">
             <!-- div for logo in order to fix center positioning on nav links -->
-            <div class="col-md-2">
+            <div class="col-md-2 col-sm-3">
               <!-- hidden only on small; needed to prevent duplicate logos -->
-              <a class="navbar-brand d-none d-sm-block" href="#">Navbar</a>
+              <a class="navbar-brand d-none d-sm-block" href="index.html">
+                <img src="images/icons/logo.png" class="w-100"
+              /></a>
             </div>
             <ul class="navbar-nav mt-2 mt-lg-0 mx-auto">
               <li class="nav-item p-lg-1">
-                <a class="nav-link active" href="#" aria-current="page"
-                  >Home <span class="visually-hidden">(current)</span></a
+                <a
+                  class="nav-link fs-5 custom-black"
+                  href="index.html"
+                  aria-current="page"
+                  >Home</a
                 >
               </li>
+              <hr class="mt-1" />
               <li class="nav-item p-lg-1">
-                <a class="nav-link" href="products.html">Store</a>
+                <a class="nav-link fs-5 custom-black" href="products.html"
+                  >Store</a
+                >
               </li>
+              <hr class="mt-1" />
             </ul>
-            <div class="col-md-2 d-flex justify-content-evenly">
+            <div class="col-md-2 col-sm-3 d-flex justify-content-evenly">
               <a href="login.html"><img src="images/icons/user.svg" /></a>
               <img src="images/icons/search.svg" />
               <a href="checkout.html"
@@ -83,10 +94,10 @@
       <section class="container">
         <div class="row d-flex flex-column">
           <div class="col-md-4 d-flex flex-column mx-auto align-items-center">
-            <h4 class="mb-3">Login</h4>
+            <h2 class="my-5 fw-bolder fw-bolder">Login</h2>
             <form class="needs-validation w-100" novalidate>
               <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="email" class="form-label fw-bold">EMAIL</label>
                 <input type="email" class="form-control" id="email" required />
                 <div class="invalid-feedback">
                   Please enter a valid email address.
@@ -94,7 +105,9 @@
               </div>
 
               <div class="mb-3">
-                <label for="password" class="form-label">Address</label>
+                <label for="password" class="form-label fw-bold"
+                  >PASSWORD</label
+                >
                 <input
                   type="password"
                   class="form-control"
@@ -117,7 +130,6 @@
                   </label>
                 </div>
               </div>
-              <hr class="my-4" />
               <button
                 class="btn btn-lg rounded-pill bg-dark w-100 btn-dark fw-bold fs-6"
                 type="submit"
