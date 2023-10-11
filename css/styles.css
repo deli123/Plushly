@@ -7,6 +7,10 @@ body {
   max-width: 1090px;
 }
 
+.w-60 {
+  width: 60%;
+}
+
 .custom-black {
   color: #111111;
 }
@@ -14,4 +18,39 @@ body {
 .nav-link:hover {
   font-weight: bold;
   transition: all 0.3s;
+}
+
+.nav-logo-width {
+  width: 25%;
+}
+
+/* adjust the size of the logo at sm, md, lg breakpoints on the checkout page */
+@media (max-width: 576px) {
+  .logo-width {
+    width: 70%;
+  }
+
+  .nav-logo-width {
+    width: 75%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .logo-width {
+    width: 75%;
+  }
+
+  .nav-logo-width {
+    width: 50%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .logo-width {
+    width: 50%;
+  }
+
+  .nav-logo-width {
+    width: 75%;
+  }
 }

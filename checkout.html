@@ -42,6 +42,13 @@
 
     <main>
       <section class="container mw-1090">
+        <nav class="navbar navbar-expand navbar-light nav-logo-width">
+          <div class="nav navbar-nav logo-width">
+            <a class="navbar-brand" href="index.html"
+              ><img src="images/icons/logo.png" class="w-100"
+            /></a>
+          </div>
+        </nav>
         <div class="row">
           <div class="col-md-4 order-md-2 mb-4">
             <h4 class="d-flex justify-content-between align-items-center mb-3">
@@ -162,9 +169,7 @@
                   </div>
                 </div>
                 <div class="col-md-3">
-                  <label for="city" class="form-label"
-                    >City</label
-                  >
+                  <label for="city" class="form-label">City</label>
                   <input
                     type="text"
                     class="form-control bg-transparent border-black"
@@ -177,7 +182,11 @@
                 </div>
                 <div class="col-md-3 mb-3">
                   <label for="state" class="form-label">State</label>
-                  <select class="form-select bg-transparent border-black" id="state" required>
+                  <select
+                    class="form-select bg-transparent border-black"
+                    id="state"
+                    required
+                  >
                     <option hidden disabled selected value="">Select...</option>
                     <option>California</option>
                     <option>New York</option>
@@ -187,14 +196,15 @@
                   </div>
                 </div>
                 <div class="col-md-3 mb-3">
-                  <label for="zipcode" class="form-label">ZIP code</label>
+                  <label for="zipcode" class="form-label">Zip code</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control bg-transparent border-black"
                     id="zipcode"
                     minlength="5"
                     maxlength="5"
                     required
+                    oninput="onlyAllowNumbers('zipcode')"
                   />
                   <div class="invalid-feedback">Zip code required.</div>
                 </div>
@@ -223,12 +233,13 @@
                     >Credit card number</label
                   >
                   <input
-                    type="text"
+                    type="number"
                     class="form-control bg-transparent border-black"
                     id="cc-number"
                     minlength="16"
                     maxlength="16"
                     required
+                    oninput="onlyAllowNumbers('cc-number')"
                   />
                   <div class="invalid-feedback">
                     Credit card number is required
@@ -253,12 +264,13 @@
                 <div class="col-md-3 mb-3">
                   <label for="cc-cvv" class="form-label">CVV</label>
                   <input
-                    type="text"
+                    type="number"
                     class="form-control bg-transparent border-black"
                     id="cc-cvv"
                     minlength="3"
                     maxlength="3"
                     required
+                    oninput="onlyAllowNumbers('cc-cvv')"
                   />
                   <div class="invalid-feedback">Security code required</div>
                 </div>

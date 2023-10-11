@@ -9,3 +9,10 @@ form.addEventListener("submit", (event) => {
 
   form.classList.add("was-validated");
 });
+
+const onlyAllowNumbers = (type) => {
+  const field = document.querySelector(`#${type}`);
+  if (field.value.length > field.maxLength) {
+    field.value = field.value.slice(0, field.maxLength);
+  }
+};
