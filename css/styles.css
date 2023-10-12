@@ -16,11 +16,7 @@ body {
 }
 
 .darker-cream {
-  background-color: #e9e0d2; /* darker mushroom cream color */
-}
-
-.even-darker-cream {
-  background-color: #dad0c3; /* even darker mushroom cream color */
+  background-color: #dad0c3; /* darker mushroom cream color */
 }
 
 .nav-link:hover {
