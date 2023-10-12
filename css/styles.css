@@ -3,20 +3,8 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
-.mw-1090 {
-  max-width: 1090px;
-}
-
-.w-60 {
-  width: 60%;
-}
-
 .custom-black {
   color: #111111;
-}
-
-.darker-cream {
-  background-color: #dad0c3; /* darker mushroom cream color */
 }
 
 .nav-link:hover {
@@ -26,42 +14,6 @@ body {
 
 .user-links a:hover {
   opacity: 0.7;
-}
-
-.nav-logo-width {
-  width: 50%;
-  min-width: 50%;
-}
-
-/* adjust the size of the logo at sm, md, lg breakpoints on the checkout page */
-@media (max-width: 576px) {
-  .logo-width {
-    width: 50%;
-  }
-}
-
-@media (min-width: 577px) and (max-width: 768px) {
-  .logo-width {
-    width: 40%;
-  }
-}
-
-@media (min-width: 769px) and (max-width: 992px) {
-  .logo-width {
-    width: 100%;
-  }
-
-  .nav-logo-width {
-    width: 70%;
-  }
-}
-
-.border-left-grey {
-  border-left: 1px solid #b7b2ab;
-}
-
-.black {
-  color: #000000;
 }
 
 /* scales a fixed image to cover the whole container, center x & y, no repeating */

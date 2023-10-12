@@ -1,0 +1,21 @@
+.bg-cream {
+  background-color: #e6ded2;
+}
+
+.darker-cream {
+  background-color: #dad0c3; /* darker mushroom cream color */
+}
+
+.close-gap {
+  margin-top: -40px !important;
+}
+
+.border-left-grey {
+  border-left: 1px solid #b7b2ab;
+}
+
+@media (min-width: 992px) {
+  .bg-darker-cream {
+    background-color: #dad0c3; /* darker mushroom cream color */
+  }
+}

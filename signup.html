@@ -36,12 +36,12 @@
   </head>
 
   <body>
-    <header>
-      <nav class="navbar navbar-expand-sm navbar-light p-md-3">
+    <header class="container-fluid">
+      <nav class="navbar navbar-expand-md navbar-light py-md-3">
         <div class="container">
           <!-- visible only on small; needed to prevent duplicate logos -->
-          <a class="navbar-brand d-sm-none w-50" href="index.html"
-            ><img src="images/icons/logo.png" class="w-100"
+          <a class="navbar-brand d-md-none" href="index.html"
+            ><img src="images/icons/logo.png" width="240px" height="40px"
           /></a>
           <button
             class="navbar-toggler d-lg-none"
@@ -58,8 +58,8 @@
             <!-- div for logo in order to fix center positioning on nav links -->
             <div class="col-md-2 col-sm-3">
               <!-- hidden only on small; needed to prevent duplicate logos -->
-              <a class="navbar-brand d-none d-sm-block" href="index.html">
-                <img src="images/icons/logo.png" class="w-100"
+              <a class="navbar-brand d-none d-md-block" href="index.html">
+                <img src="images/icons/logo.png" width="240px" height="40px"
               /></a>
             </div>
             <ul class="navbar-nav mt-2 mt-lg-0 mx-auto">
@@ -73,13 +73,13 @@
               </li>
               <hr class="mt-1" />
               <li class="nav-item p-lg-1">
-                <a class="nav-link fs-5 custom-black" href="products.html"
+                <a class="nav-link fs-5 custom-black" href="#"
                   >Store</a
                 >
               </li>
               <hr class="mt-1" />
             </ul>
-            <div class="col-md-2 col-sm-3 d-flex justify-content-evenly user-links">
+            <div class="col-md-2 d-flex justify-content-evenly user-links">
               <a href="login.html"><img src="images/icons/user.svg" /></a>
               <a href="#"><img src="images/icons/search.svg" /></a>
               <a href="checkout.html"
@@ -94,7 +94,7 @@
       <hr class="mt-2" />
       <section class="container">
         <div class="row d-flex flex-column">
-          <div class="col-md-4 d-flex flex-column mx-auto align-items-center">
+          <div class="col-md-7 col-lg-6 col-xl-5 col-xxl-4 d-flex flex-column mx-auto align-items-center">
             <h2 class="my-5 fw-bolder fw-bolder">Create Account</h2>
             <form class="needs-validation w-100" novalidate>
               <div class="mb-3">
