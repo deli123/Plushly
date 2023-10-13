@@ -31,3 +31,11 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+
+.border-bottom-grey {
+  border-bottom: 1px solid #6c757d;
+}
+
+.border-bottom-light {
+  border-bottom: 1px solid #d4cbbd; /* light cream color */
+}
