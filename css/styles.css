@@ -3,6 +3,10 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
 }
 
+.bg-cream {
+  background-color: #e6ded2;
+}
+
 .custom-black {
   color: #111111;
 }
