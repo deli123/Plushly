@@ -1,6 +1,6 @@
 /* scales an image to cover the whole container, center x & y, no repeat */
 .bg-image {
-  background: url("images/bg-image.JPG");
+  background: url("../images/bg-image.JPG");
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -33,16 +33,16 @@
 }
 
 #product-corgi {
-  background: url("images/products/corgi.png");
+  background: url("../images/products/corgi.png");
   background-color: #ead1b4;
 }
 
 #product-pink-bear {
-  background: url("images/products/pink-bear.png");
+  background: url("../images/products/pink-bear.png");
   background-color: #fde3ea;
 }
 
 #product-whale {
-  background: url("images/products/whale.png");
+  background: url("../images/products/whale.png");
   background-color: #c4dcec;
 }
