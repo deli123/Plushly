@@ -34,8 +34,8 @@
     <link rel="stylesheet" href="css/home.css" />
   </head>
 
-  <body class="bg-image">
-    <header class="container-fluid sticky-top bg-cream border-bottom-light">
+  <body>
+    <header class="container-fluid fixed-top bg-cream border-bottom-light">
       <nav class="navbar navbar-expand-md navbar-light py-md-3">
         <div class="container-lg">
           <!-- visible only on small; needed to prevent duplicate logos -->
@@ -90,13 +90,27 @@
       </nav>
     </header>
     <main>
-      <section class="about">
-        <h1>Lorem ipsum <br>dolor <br>sit amet.</h1>
-        <p>Lorem ipsum dolor sit amet.</p>
-        <a href="#" class="about-btn">buy now</a>
+      <section class="container-fluid bg-image">
+        <div class="container vh-100">
+          <div
+            class="d-flex flex-column col-6 col-md-4 align-items-start align-items-xl-center justify-content-start justify-content-lg-center vh-50 mt-5 pt-5"
+            id="home-header"
+          >
+            <p class="display-1 fw-bold lh-1">HUGGABLE GIFTS FOR EVERYONE</p>
+            <p class="fs-3 fst-italic text-nowrap">
+              Crafted with Love, Softness, and Care
+            </p>
+            <button
+              type="button"
+              class="btn btn-primary rounded-pill btn-dark fw-bold fs-3 p-2 px-3 w-100"
+            >
+              BUY NOW
+            </button>
+          </div>
+        </div>
       </section>
     </main>
-    <footer class="my-5 text-muted text-center text-small">
+    <footer class="my-3 text-muted text-center text-small">
       <p>&copy; Plushly</p>
     </footer>
   </body>
