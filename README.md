@@ -23,21 +23,24 @@ Plushly is an e-commerce website that sells plushies. This is a project, not an 
 
 ## Login page
 
-![Landing Page](images/readme/login.JPG)
+![Login Page](images/readme/login.JPG)
 
 ## Signup page
 
-![Landing Page](images/readme/signup.JPG)
+![Signup Page](images/readme/signup.JPG)
 
 ## Products page
 
-![Landing Page](images/readme/products.JPG)
+![Products Page](images/readme/products.JPG)
 
 ## Checkout page
 
-![Landing Page](images/readme/checkout.JPG)
+![Checkout Page](images/readme/checkout.JPG)
 
 # Code Snippet
+
+Below is a code snippet for the Order Summary dropdown. When the screen is smaller than large (<992px), the Order Summary will convert from a table to a dropdown, which can be minimized or expanded.
+
 
 ```html
 <div class="btn-group d-flex flex-column d-lg-none my-2">
@@ -71,7 +74,8 @@ Plushly is an e-commerce website that sells plushies. This is a project, not an 
   </ul>
 </div>
 ```
-This is a code snippet for the Order Summary dropdown. When the screen is smaller than large (<992px), the Order Summary will convert from a table to a dropdown, which can be minimized or expanded.
+
+![Cart Dropdown](images/readme/cart-dropdown.JPG)
 
 # Future features
 
