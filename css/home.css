@@ -17,6 +17,15 @@
   max-width: 450px;
 }
 
+#header-text {
+  color: #25004d; /* dark purple color */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+#subheader-text {
+  color: #5a437a; /* light purple color */
+}
+
 .item-description {
   width: 50%;
   height: 100%;
