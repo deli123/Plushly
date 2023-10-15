@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/checkout.css">
     <script src="scripts/validation.js" defer></script>
+    <script src="scripts/checkout.js" defer></script>
   </head>
 
   <body>
@@ -303,6 +304,7 @@
                         Select...
                       </option>
                       <option>United States</option>
+                      <option>Netherlands</option>
                     </select>
                     <div class="invalid-feedback">
                       Please select a valid country.
@@ -327,11 +329,9 @@
                       id="state"
                       required
                     >
-                      <option hidden disabled selected value="">
+                      <option hidden disabled value="">
                         Select...
                       </option>
-                      <option>California</option>
-                      <option>New York</option>
                     </select>
                     <div class="invalid-feedback">
                       Please provide a valid state.
@@ -344,7 +344,7 @@
                       class="form-control bg-transparent border-black"
                       id="zipcode"
                       minlength="5"
-                      maxlength="5"
+                      maxlength="6"
                       required
                     >
                     <div class="invalid-feedback">Zip code required.</div>

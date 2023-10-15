@@ -1,8 +1,8 @@
 const searchField = document.getElementById("product-search");
 
 const searchFunction = () => {
-  let input = searchField.value;
-  let searchTitle = document.getElementById("search-title");
+  const input = searchField.value;
+  const searchTitle = document.getElementById("search-title");
 
   // Change the header text based on input
   if (input) {

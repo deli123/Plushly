@@ -27,3 +27,9 @@ body {
 .border-bottom-light {
   border-bottom: 1px solid #d4cbbd; /* light cream color */
 }
+
+#product-search {
+  background: url("../images/icons/search.svg");
+  background-repeat: no-repeat;
+  background-position: left center;
+}
