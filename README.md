@@ -7,6 +7,7 @@ Plushly is an e-commerce website that sells plushies. This is a project, not an 
 - **Five pages**: Landing, login, signup, products, and checkout pages
 - **Responsive Design**: Accessible on all devices, ensuring a smooth experience whether you're on a desktop, tablet, or mobile phone.
 - **Form validation**: Inputs must meet the specified requirements; input fields are color coded as green or red for valid/invalid inputs
+- **Search for products**: Live search feature that will filter products based on user input
 
 # Technologies
 
