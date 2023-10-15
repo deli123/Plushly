@@ -81,18 +81,32 @@
               </li>
             </ul>
             <div class="col-md-2 d-flex justify-content-evenly user-links">
+              <a href="#" data-bs-toggle="modal" data-bs-target="#searchModal"><img src="images/icons/search.svg" alt="search icon"></a>
               <a href="login.html"><img src="images/icons/user.svg" alt="user icon"></a>
-              <a href="#"><img src="images/icons/search.svg" alt="search icon"></a>
               <a href="checkout.html"
                 ><img src="images/icons/shopping-cart.svg" alt="shopping cart icon"></a>
             </div>
-            <input class="form-control me-sm-2" type="text" id="product-search" placeholder="Search" onkeyup="myFunction()">
           </div>
         </div>
       </nav>
     </header>
     <main>
-      <section class="container">
+      <!-- Modal for search input -->
+      <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="searchModal" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content bg-cream">
+            <div class="modal-body pb-0">
+              <input class="form-control my-3 bg-transparent bg-cream border-1 border-dark" type="text" id="product-search" placeholder="Search" onkeyup="searchFunction()">
+            </div>
+            <div class="modal-footer border-0 pt-0">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="container" id="products-container">
+        <h2 class="fw-bold m-0 ms-4 d-none" id="search-title">Search results</h2>
         <div class="row row-cols-2 row-cols-md-3 row-cols-xl-4 row-cols-xxl-5">
           <div class="col mt-5">
             <div class="card bg-transparent border-0 mx-auto px-3" style="width: 14rem;">
