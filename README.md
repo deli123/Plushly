@@ -1,13 +1,13 @@
 # Plushly
 
-Plushly is an e-commerce website that sells plushies. This is a project, not an actual business.
+[Plushly](https://deli123.github.io/Plushly/) is an e-commerce website that sells plushies.
 
 # Features
 
 - **Five pages**: Landing, login, signup, products, and checkout pages
 - **Responsive Design**: Accessible on all devices, ensuring a smooth experience whether you're on a desktop, tablet, or mobile phone.
 - **Form validation**: Inputs must meet the specified requirements; input fields are color coded as green or red for valid/invalid inputs
-- **Search for products**: Live search feature that will filter products on each keystroke
+- **Search for products**: Live search feature that will filter products on each keystroke. Accessible by clicking the search icon (magnifying glass) in the nav bar on the products page.
 
 # Technologies
 
