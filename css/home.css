@@ -13,6 +13,11 @@
   height: 50vh;
 }
 
+/* subtracting 240px to fit the 3 products at the bottom on the same view */
+.vh-hero {
+  height: calc(100vh - 240px);
+}
+
 .mw-450 {
   max-width: 450px;
 }
