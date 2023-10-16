@@ -16,7 +16,7 @@ Plushly is an e-commerce website that sells plushies. This is a project, not an 
 - JavaScript
 - Bootstrap 5
 
-# Preview
+# Previews
 
 ## Landing page
 
