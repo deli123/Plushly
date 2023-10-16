@@ -16,7 +16,7 @@ addToCartButtons.forEach((button) => {
 const searchField = document.getElementById("product-search");
 
 const searchFunction = () => {
-  const input = searchField.value;
+  const input = searchField.value.trim();
   const searchTitle = document.getElementById("search-title");
 
   // Change the header text based on input
